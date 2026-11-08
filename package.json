@@ -1,0 +1,32 @@
+{
+	"name": "aqa-advanced",
+	"version": "1.0.0",
+	"description": "",
+	"homepage": "https://github.com/NastyaKhomenko/aqa-advanced#readme",
+	"bugs": {
+		"url": "https://github.com/NastyaKhomenko/aqa-advanced/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NastyaKhomenko/aqa-advanced.git"
+	},
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky",
+		"lint": "eslint"
+	},
+	"dependencies": {
+		"chalk": "^6.0.1"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.14.0",
+		"globals": "^17.14.0",
+		"husky": "^9.1.7",
+		"prettier": "3.9.10"
+	}
+}
